@@ -11,7 +11,7 @@ Description: ggsubplot makes it easy to embed customized subplots
         explore interaction effects, spatial data, and hierarchical
         data. Subplots can also be used to explore big data without
         overplotting.
-Version: 0.1.0
+Version: 0.2.0
 Imports: ggplot2, plyr, proto, grid, scales, stringr
 Depends: methods, R (>= 2.15)
 Collate: 'aesply.r' 'data.r' 'geom_coxcomb.r' 'geom_star.r'
@@ -19,6 +19,6 @@ Collate: 'aesply.r' 'data.r' 'geom_coxcomb.r' 'geom_star.r'
         'ggsubplot_build.r' 'merge_overlaps.r' 'package.r' 'ply_aes.r'
         'ref_box.r' 'rel-class.r' 'rescalers.r' 'sp_layer-class.r'
         'sp_layer_build.r' 'util.r' 'geom_freqstar.r'
-Packaged: 2012-09-04 02:49:15 UTC; garrettgrolemund
+Packaged: 2012-09-10 22:51:11 UTC; garrettgrolemund
 Repository: CRAN
-Date/Publication: 2012-09-04 06:16:19
+Date/Publication: 2012-09-11 06:14:20

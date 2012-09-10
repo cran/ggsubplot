@@ -1,5 +1,6 @@
-62291886966255cfb1d934ed848f143b *DESCRIPTION
-c9dc7484c381f6138c091695e97f25b3 *NAMESPACE
+f8f91371e1533b1c1a89d0057290e1c1 *DESCRIPTION
+06f748e71baad7cd22de3a41fe6e9e72 *NAMESPACE
+669d7fdd2453f6dff4fc3733be75bf37 *NEWS.txt
 3e44eede20808d009c7b3487e7d9c0c2 *R/aesply.r
 f17c981e92938e84631ef75faf7a0bdb *R/data.r
 9be1eb1e9cb5a9877ad92e7938df782e *R/geom_coxcomb.r
@@ -7,7 +8,7 @@ f17c981e92938e84631ef75faf7a0bdb *R/data.r
 c55a7d6a06a101824c5cba787ead23af *R/geom_star.r
 94e296945be74ac2933dbfb16db5afc0 *R/geom_subplot.r
 1952fdd4debbc9c1d133fae1d948f5dc *R/geom_subplot2d.r
-15e4b02a2df35d816bcc0141ed0cd95c *R/ggsubplot-class.r
+fa91cbbb3bd7bbc68320655e2d72b962 *R/ggsubplot-class.r
 82e749aeaa003867654cfd8ed736d7de *R/ggsubplot_build.r
 4e557633f5be7e6d4b768940c62a37eb *R/merge_overlaps.r
 0182144ab13f898baa62ffa69381e980 *R/package.r
@@ -15,7 +16,7 @@ c55a7d6a06a101824c5cba787ead23af *R/geom_star.r
 cc7f00570e0db4b961d7a2f78c87a560 *R/ref_box.r
 e8cb871ca4a9c9d234567ca659efd07c *R/rel-class.r
 2ec465a88c73b9db8d9ebab4b39ad69e *R/rescalers.r
-dd54e6f271d7f17ad68958511f7afac0 *R/sp_layer-class.r
+ac88d219491f714a8114cb4f33d056f4 *R/sp_layer-class.r
 a722c6c8345d1ca46cd3ab256d07d3d5 *R/sp_layer_build.r
 8a64b1063c2a95c5d7f6b5fe1c4f2b97 *R/util.r
 d910b3bdce66faf451fb41c3fdce7c99 *README.md
@@ -41,9 +42,10 @@ cfecc9716d68ccb1d59650ce10606ac6 *man/geom_freqstar.Rd
 7f7ac8513056fc87447d9e9c8588dc80 *man/geom_subplot2d.Rd
 fe1e2127ff4c2a202f48ae860a5fa245 *man/get_xs.Rd
 6a479ed8921918d2c094f838ff8278fd *man/get_ys.Rd
+bc3ecec65a3c2fa6626eede2a911b58f *man/gg-class.Rd
 f2cb0742dc2c48e9a1d5872648418163 *man/ggplot-class.Rd
 fa0b971c69241a81b2cb6783be242e6f *man/ggsubplot-class.Rd
-86b6ae5ddd9f0eef91b4268c166ccc92 *man/ggsubplot.Rd
+42a78bff5fd934f81cfc0cda043e8cf6 *man/ggsubplot.Rd
 cabaf30c7090d438e6c4853a301834b0 *man/ggsubplot_build.Rd
 b3eb91ee820cc0f7858fe5557338b326 *man/globalize.Rd
 0c29efb4b06d8da01a8e805054cac197 *man/interval_breaks.Rd
@@ -67,7 +69,7 @@ fd26d8a0ea5128502db9378031be742b *man/ref_vline.Rd
 aa8b4b73c7d733dd96acbfd8bc4bd7af *man/rescale_01.Rd
 7dc844aa60ca8142df0390dff4ecdf1b *man/rescale_11.Rd
 5e90f2855bc9fc8de54215c7508c7740 *man/rescale_2pi.Rd
-0ffb4312730825ff9edf5f1395d0e6f0 *man/sp_layer-class.Rd
+b32b666e6c58ee9437bda37edd7a360c *man/sp_layer-class.Rd
 22a710345d4f114dab75a2518fcc8f0c *man/sp_layer.Rd
 be71c2e8bbc0cbe686cbf33e3a8a689c *man/sp_layer_build.Rd
 e2d0865519032ae5f4e79136db1114f2 *man/unpanel.Rd
