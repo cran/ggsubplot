@@ -86,7 +86,7 @@ GeomCoxcomb <- proto::proto(ggplot2:::Geom, {
     
     # create polygon points
     poly_curve <- function(df, npoints) {
-      non.pos <- setdiff(names(df), c(.x_aes, .y_aes, "count", "ndensity", 
+      non.pos <- setdiff(names(df), c(ggsubplot:::.x_aes, ggsubplot:::.y_aes, "count", "ndensity", 
         "ncount", "density"))
       theta <- seq(df$xmin, df$xmax, length = npoints)
       theta <- c(theta, theta[length(theta):1])
@@ -176,7 +176,12 @@ coxcomb_sections <- function(mapping) {
   as.call(c(quote(interaction), sections))
 }
 
-# changes 2 * pi into 0
+#' Changes 2 pi to 0
+#'
+#' @keywords internal
+#' @param vec a vector of angles in radians 
+#' \code{\link[ggplot2]{aes}}
+#' @export
 zero_wrap <- function(vec){
   vec[vec > 6.2831] <- 0
   vec

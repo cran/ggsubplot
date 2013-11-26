@@ -1,4 +1,0 @@
-ggsubplot 0.2
-------------
-
-* new methods for class "gg" introduced by ggplot2 v 0.9.2. These methods keep ggsubplot compatible with the latest release of ggplot2
